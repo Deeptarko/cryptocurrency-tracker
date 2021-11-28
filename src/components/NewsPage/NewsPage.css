@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.newsPage{
+margin-left: 26%;
+overflow-x: hidden;
+width: 100vw;
+}
+.newsCards{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-top: 5%;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    font-family: 'Ubuntu', sans-serif;
+}
+.newsHeading{
+    margin-left: 25%;
+    margin-top: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+    .newsCards{
+        flex-direction: column;
+        background-color: #F0F2F5;
+    }
+    .newsHeading{
+        margin-top:7rem;
+        margin-left: 7%;
+    }
+    .newsPage{
+        margin-left: 5%;
+    }
+  }

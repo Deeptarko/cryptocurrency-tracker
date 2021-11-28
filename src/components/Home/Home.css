@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+.globalStats{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    margin-left:25%;
+    
+}
+.globalStats h1{
+    margin: 1rem;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.cryptoStats{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    margin-left: 25%;
+    background-color: #F0F2F5;
+    
+}
+.cryptoStats h1{
+    margin: 1rem;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+@media only screen and (max-width: 800px){
+    .cryptoStats{
+        margin-left: 10%;
+    }
+}

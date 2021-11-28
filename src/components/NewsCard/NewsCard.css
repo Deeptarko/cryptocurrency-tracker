@@ -1,0 +1,24 @@
+.newsCard{
+    width: 22vw;
+    height:35vw;
+    background-color: white;
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* margin-top: 3rem; */
+}
+.title{
+    margin-left: 1rem;
+}
+p{
+    margin: 1rem;
+}
+h3{
+    margin: 1rem;
+}
+@media only screen and (max-width: 768px) {
+    .newsCard{
+        width: 79vw;
+        height: 73vh;
+    }
+  }

@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.statsContainer{
+    width: 40%;
+    margin: 1rem;
+    font-family: 'Open Sans', sans-serif;
+   
+    
+}
+
+.statsName{
+    color: darkgrey;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 0.5rem;
+}
+.statsVal{
+    margin-left: 8.4px;
+}

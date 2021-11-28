@@ -1,0 +1,15 @@
+.exchangeImg{
+    height: 30px;
+    width: 30px;
+    margin-right: 2rem;
+}
+.exchangeData{
+    display: flex;
+    flex-direction: row;
+}
+.exchangeData>h1{
+   font-size: 18px;
+}
+.exchangeRow{
+    background-color: #F0F2F5;
+}

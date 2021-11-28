@@ -1,0 +1,29 @@
+.cryptoDiv{
+    width: 100%;
+    margin-left: 27%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #F0F2F5;
+}
+.cryptoHeading{
+    justify-content: space-between;
+}
+.cryptoHeading>img{
+    margin-right:1rem;
+}
+.cryptoHeading>h1{
+    margin-left:1rem;
+    margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .cryptoDiv{
+        flex-direction: column;
+        margin-left: 10%;
+        margin-top: 25%;
+    }
+    .cryptoCard{
+        width:100%;
+    }
+  }

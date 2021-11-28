@@ -1,0 +1,24 @@
+.middleCard{
+    width: 25vw;
+    height:30vw;
+    
+    margin: 1rem;
+}
+.topDiv{
+    height: 45%;
+    background-color: yellow;
+}
+.bottomDiv{
+    height: 45%;
+    background-color: yellow;
+    margin-top: 12%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .middleCard{
+        width: 79vw;
+        height:50vh;
+        background-color: #F0F2F5;
+    }
+  }

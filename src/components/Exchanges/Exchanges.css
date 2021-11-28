@@ -1,0 +1,30 @@
+.exchanges {
+  margin-left: 25%;
+  height: 100vh;
+  background-color: #F0F2F5;
+}
+
+th,
+td {
+  padding: 8px;
+  border-bottom: 1px solid grey;
+}
+table {
+  width: 95vw;
+}
+.exchangeTable th {
+  padding-top: 12px;
+  padding-bottom: 15px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  table{
+    margin-top: 32%;
+  }
+  .exchanges{
+    margin-left:1%;
+  }
+}
